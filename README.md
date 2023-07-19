@@ -9,6 +9,7 @@ App support API only and you can create course with tutors in single API endpoin
 - Tutor can opt only one course at a time
 - If passing existing tutor details, backend will ignore the latest details and keep the existing one as is
 - If you pass two tutor details like existing and new one, course will be assigned to new tutor and existing one will be ignored
+- Listing API will list all courses including tutors
 
 ## Tech Stack
 
@@ -23,8 +24,8 @@ App support API only and you can create course with tutors in single API endpoin
 ## Installation and Setup
 
 ```sh
-git clone git@github.com:gurpreethans/emeritus-test.git
-cd emeritus-test
+git clone git@github.com:gurpreethans/promobi-test.git
+cd promobi-test
 Install and Setup Ruby 3.1.2 - Rbenv or RVM
 gem install bundler
 bundle install
